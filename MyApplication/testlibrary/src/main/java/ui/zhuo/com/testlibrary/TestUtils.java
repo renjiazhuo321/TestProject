@@ -14,4 +14,7 @@ public class TestUtils {
     public static void  showLongToast(Context context,String text){
         Toast.makeText(context,text,Toast.LENGTH_LONG).show();
     }
+    public static void  showLongToastLoing(Context context,String text){
+        Toast.makeText(context,"loing",Toast.LENGTH_LONG).show();
+    }
 }
